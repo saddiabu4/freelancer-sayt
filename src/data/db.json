@@ -1,0 +1,117 @@
+{
+  "builders": [
+    {
+      "id": "1",
+      "name": "Akmal Usta",
+      "profession": "Elektrik",
+      "city": "Toshkent",
+      "experience": 7,
+      "rating": 4.8,
+      "reviewsCount": 124,
+      "priceFrom": 150000,
+      "topRated": true,
+      "avatar": "/avatars/akmal.jpg",
+      "bio": "7 yillik tajribaga ega professional elektrik. Uy va ofis elektr tarmoqlarini sifatli o‘rnataman.",
+      "works": [
+        {
+          "id": "w1",
+          "title": "Uy elektr tarmog‘i",
+          "image": "/works/elektrik1.jpg"
+        },
+        {
+          "id": "w2",
+          "title": "Ofis yoritish tizimi",
+          "image": "/works/elektrik2.jpg"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r1",
+          "user": "Jasur",
+          "rating": 5,
+          "comment": "Juda sifatli va tez ishladi",
+          "date": "2025-01-12"
+        },
+        {
+          "id": "r2",
+          "user": "Dilshod",
+          "rating": 4,
+          "comment": "Yaxshi, lekin biroz kech keldi",
+          "date": "2025-02-03"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sardor Usta",
+      "profession": "Santexnik",
+      "city": "Samarqand",
+      "experience": 10,
+      "rating": 4.6,
+      "reviewsCount": 98,
+      "priceFrom": 200000,
+      "topRated": true,
+      "avatar": "/avatars/sardor.jpg",
+      "bio": "10 yildan ortiq tajribaga ega santexnik. Issiq va sovuq suv tizimlari.",
+      "works": [
+        {
+          "id": "w3",
+          "title": "Hammom quvurlari",
+          "image": "/works/santexnik1.jpg"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r3",
+          "user": "Aziza",
+          "rating": 5,
+          "comment": "Ishidan juda mamnunman",
+          "date": "2025-01-25"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Javohir Usta",
+      "profession": "Usta",
+      "city": "Buxoro",
+      "experience": 5,
+      "rating": 4.2,
+      "reviewsCount": 54,
+      "priceFrom": 120000,
+      "topRated": false,
+      "avatar": "/avatars/javohir.jpg",
+      "bio": "Uy ichki ta’miri va mayda qurilish ishlari bilan shug‘ullanaman.",
+      "works": [
+        {
+          "id": "w4",
+          "title": "Xona ta’miri",
+          "image": "/works/remont1.jpg"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r4",
+          "user": "Otabek",
+          "rating": 4,
+          "comment": "Yaxshi ishladi",
+          "date": "2025-02-10"
+        }
+      ]
+    }
+  ],
+  "professions": [
+    "Elektrik",
+    "Santexnik",
+    "Usta",
+    "Betonchi",
+    "Payvandchi"
+  ],
+  "cities": [
+    "Toshkent",
+    "Samarqand",
+    "Buxoro",
+    "Andijon",
+    "Farg‘ona"
+  ]
+}
