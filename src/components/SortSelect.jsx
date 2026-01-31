@@ -1,21 +1,48 @@
-import React from "react"
+import {
+	Select,
+	SelectContent,
+	SelectItem,
+	SelectTrigger,
+	SelectValue,
+} from "@/components/ui/select"
 
-const SortSelect = () => {
+const SortSelect = ({
+	value = "rating",
+	onChange,
+	options = [],
+	label = "Saralash",
+	placeholder = "Tanlang",
+	className = "",
+}) => {
+	const defaultOptions = [
+		{ value: "rating", label: "Reyting bo'yicha" },
+		{ value: "reviews", label: "Sharhlar soni" },
+		{ value: "price-low", label: "Narx: arzondan qimmatga" },
+		{ value: "price-high", label: "Narx: qimmatdan arzonga" },
+		{ value: "experience", label: "Tajriba bo'yicha" },
+	]
+
+	const selectOptions = options.length > 0 ? options : defaultOptions
+
 	return (
-		<div>
-			<label htmlFor='sort' className='block text-sm font-medium text-gray-700'>
-				Sort by:
-			</label>
-			<select
-				id='sort'
-				name='sort'
-				className='mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500'
-			>
-				<option value='latest'>Latest</option>
-				<option value='oldest'>Oldest</option>
-				<option value='highest-rated'>Highest Rated</option>
-				<option value='lowest-rated'>Lowest Rated</option>
-			</select>
+		<div className={`flex items-center gap-2 ${className}`}>
+			{label && (
+				<span className='text-sm text-gray-600 whitespace-nowrap'>
+					{label}:
+				</span>
+			)}
+			<Select value={value} onValueChange={onChange}>
+				<SelectTrigger className='w-48'>
+					<SelectValue placeholder={placeholder} />
+				</SelectTrigger>
+				<SelectContent>
+					{selectOptions.map((option) => (
+						<SelectItem key={option.value} value={option.value}>
+							{option.label}
+						</SelectItem>
+					))}
+				</SelectContent>
+			</Select>
 		</div>
 	)
 }

@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom"
-import Home from "@/pages/Home"
 import Builders from "@/pages/Builders"
-import Profile from "@/pages/Profile"
 import Favorites from "@/pages/Favorites"
+import Home from "@/pages/Home"
 import NotFound from "@/pages/NotFound"
+import Profile from "@/pages/Profile"
+import { Route, Routes } from "react-router-dom"
 
 const App = () => {
 	return (
@@ -12,7 +12,7 @@ const App = () => {
 			<Route path='/builders' element={<Builders />} />
 			<Route path='/profile' element={<Profile />} />
 			<Route path='/favorites' element={<Favorites />} />
-			<Route path='/not-found' element={<NotFound />} />
+			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)
 }

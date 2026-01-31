@@ -1,117 +1,322 @@
 {
-  "builders": [
-    {
-      "id": "1",
-      "name": "Akmal Usta",
-      "profession": "Elektrik",
-      "city": "Toshkent",
-      "experience": 7,
-      "rating": 4.8,
-      "reviewsCount": 124,
-      "priceFrom": 150000,
-      "topRated": true,
-      "avatar": "/avatars/akmal.jpg",
-      "bio": "7 yillik tajribaga ega professional elektrik. Uy va ofis elektr tarmoqlarini sifatli o‘rnataman.",
-      "works": [
-        {
-          "id": "w1",
-          "title": "Uy elektr tarmog‘i",
-          "image": "/works/elektrik1.jpg"
-        },
-        {
-          "id": "w2",
-          "title": "Ofis yoritish tizimi",
-          "image": "/works/elektrik2.jpg"
-        }
-      ],
-      "reviews": [
-        {
-          "id": "r1",
-          "user": "Jasur",
-          "rating": 5,
-          "comment": "Juda sifatli va tez ishladi",
-          "date": "2025-01-12"
-        },
-        {
-          "id": "r2",
-          "user": "Dilshod",
-          "rating": 4,
-          "comment": "Yaxshi, lekin biroz kech keldi",
-          "date": "2025-02-03"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Sardor Usta",
-      "profession": "Santexnik",
-      "city": "Samarqand",
-      "experience": 10,
-      "rating": 4.6,
-      "reviewsCount": 98,
-      "priceFrom": 200000,
-      "topRated": true,
-      "avatar": "/avatars/sardor.jpg",
-      "bio": "10 yildan ortiq tajribaga ega santexnik. Issiq va sovuq suv tizimlari.",
-      "works": [
-        {
-          "id": "w3",
-          "title": "Hammom quvurlari",
-          "image": "/works/santexnik1.jpg"
-        }
-      ],
-      "reviews": [
-        {
-          "id": "r3",
-          "user": "Aziza",
-          "rating": 5,
-          "comment": "Ishidan juda mamnunman",
-          "date": "2025-01-25"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Javohir Usta",
-      "profession": "Usta",
-      "city": "Buxoro",
-      "experience": 5,
-      "rating": 4.2,
-      "reviewsCount": 54,
-      "priceFrom": 120000,
-      "topRated": false,
-      "avatar": "/avatars/javohir.jpg",
-      "bio": "Uy ichki ta’miri va mayda qurilish ishlari bilan shug‘ullanaman.",
-      "works": [
-        {
-          "id": "w4",
-          "title": "Xona ta’miri",
-          "image": "/works/remont1.jpg"
-        }
-      ],
-      "reviews": [
-        {
-          "id": "r4",
-          "user": "Otabek",
-          "rating": 4,
-          "comment": "Yaxshi ishladi",
-          "date": "2025-02-10"
-        }
-      ]
-    }
-  ],
-  "professions": [
-    "Elektrik",
-    "Santexnik",
-    "Usta",
-    "Betonchi",
-    "Payvandchi"
-  ],
-  "cities": [
-    "Toshkent",
-    "Samarqand",
-    "Buxoro",
-    "Andijon",
-    "Farg‘ona"
-  ]
+	"builders": [
+		{
+			"id": "1",
+			"name": "Akmal Usta",
+			"profession": "Elektrik",
+			"city": "Toshkent",
+			"experience": 7,
+			"rating": 4.8,
+			"reviewsCount": 124,
+			"priceFrom": 150000,
+			"topRated": true,
+			"avatar": "/avatars/akmal.jpg",
+			"bio": "7 yillik tajribaga ega professional elektrik. Uy va ofis elektr tarmoqlarini sifatli o'rnataman. Hamma turdagi elektr ishlari: simlar tortish, rozetkalar o'rnatish, elektr panellar va avtomatlar bilan ishlash.",
+			"works": [
+				{
+					"id": "w1",
+					"title": "Uy elektr tarmog'i",
+					"image": "/works/elektrik1.jpg"
+				},
+				{
+					"id": "w2",
+					"title": "Ofis yoritish tizimi",
+					"image": "/works/elektrik2.jpg"
+				},
+				{
+					"id": "w3",
+					"title": "Elektr panel o'rnatish",
+					"image": "/works/elektrik3.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r1",
+					"user": "Jasur Karimov",
+					"rating": 5,
+					"comment": "Juda sifatli va tez ishladi. Professional yondashuv va ishdan mamnunman!",
+					"date": "2025-01-12"
+				},
+				{
+					"id": "r2",
+					"user": "Dilshod Ahmedov",
+					"rating": 4,
+					"comment": "Yaxshi, lekin biroz kech keldi. Lekin ish sifati a'lo",
+					"date": "2025-02-03"
+				},
+				{
+					"id": "r3",
+					"user": "Nilufar Sodiqova",
+					"rating": 5,
+					"comment": "Butun uyning elektr tarmog'ini yangiladi. Juda professional!",
+					"date": "2025-01-20"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "Sardor Usta",
+			"profession": "Santexnik",
+			"city": "Samarqand",
+			"experience": 10,
+			"rating": 4.6,
+			"reviewsCount": 98,
+			"priceFrom": 200000,
+			"topRated": true,
+			"avatar": "/avatars/sardor.jpg",
+			"bio": "10 yildan ortiq tajribaga ega santexnik. Issiq va sovuq suv tizimlari, kanalizatsiya, hammom va oshxona santexnikasi bilan professional darajada ishlayman.",
+			"works": [
+				{
+					"id": "w3",
+					"title": "Hammom quvurlari",
+					"image": "/works/santexnik1.jpg"
+				},
+				{
+					"id": "w4",
+					"title": "Oshxona santexnikasi",
+					"image": "/works/santexnik2.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r3",
+					"user": "Aziza Karimova",
+					"rating": 5,
+					"comment": "Ishidan juda mamnunman. Hammomni to'liq yangiladi!",
+					"date": "2025-01-25"
+				},
+				{
+					"id": "r4",
+					"user": "Bekzod Rahimov",
+					"rating": 4,
+					"comment": "Tez va sifatli ish. Tavsiya qilaman",
+					"date": "2025-02-01"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"name": "Javohir Usta",
+			"profession": "Usta",
+			"city": "Buxoro",
+			"experience": 5,
+			"rating": 4.2,
+			"reviewsCount": 54,
+			"priceFrom": 120000,
+			"topRated": false,
+			"avatar": "/avatars/javohir.jpg",
+			"bio": "Uy ichki ta'miri va mayda qurilish ishlari bilan shug'ullanaman. Gips karton, shiplar, devorlar va boshqa ta'mirlash ishlari.",
+			"works": [
+				{
+					"id": "w4",
+					"title": "Xona ta'miri",
+					"image": "/works/remont1.jpg"
+				},
+				{
+					"id": "w5",
+					"title": "Gips karton ishlar",
+					"image": "/works/remont2.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r4",
+					"user": "Otabek Sobirov",
+					"rating": 4,
+					"comment": "Yaxshi ishladi, narxi ham maqul",
+					"date": "2025-02-10"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"name": "Bobur Usta",
+			"profession": "Betonchi",
+			"city": "Toshkent",
+			"experience": 12,
+			"rating": 4.9,
+			"reviewsCount": 187,
+			"priceFrom": 250000,
+			"topRated": true,
+			"avatar": "/avatars/bobur.jpg",
+			"bio": "12 yillik tajribaga ega beton ishlari bo'yicha mutaxassis. Poydevor, pol, devor va boshqa beton konstruksiyalar qurish bo'yicha professional.",
+			"works": [
+				{
+					"id": "w6",
+					"title": "Poydevor qurish",
+					"image": "/works/beton1.jpg"
+				},
+				{
+					"id": "w7",
+					"title": "Beton pol",
+					"image": "/works/beton2.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r5",
+					"user": "Sherzod Tursunov",
+					"rating": 5,
+					"comment": "Eng yaxshi betonchi! Poydevorni juda sifatli qildi",
+					"date": "2025-01-15"
+				},
+				{
+					"id": "r6",
+					"user": "Mirjalol Abdullayev",
+					"rating": 5,
+					"comment": "Professional yondashuv, sifatli ish",
+					"date": "2025-01-28"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"name": "Rustam Usta",
+			"profession": "Payvandchi",
+			"city": "Andijon",
+			"experience": 8,
+			"rating": 4.5,
+			"reviewsCount": 76,
+			"priceFrom": 180000,
+			"topRated": false,
+			"avatar": "/avatars/rustam.jpg",
+			"bio": "8 yillik tajriba bilan metall konstruksiyalar va payvandlash ishlari bo'yicha mutaxassis. Darvoza, panjara, metall zinapoyalar yasash.",
+			"works": [
+				{
+					"id": "w8",
+					"title": "Metall darvoza",
+					"image": "/works/payvand1.jpg"
+				},
+				{
+					"id": "w9",
+					"title": "Panjara o'rnatish",
+					"image": "/works/payvand2.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r7",
+					"user": "Ulugbek Qodirov",
+					"rating": 5,
+					"comment": "Chiroyli darvoza yasab berdi. Rahmat!",
+					"date": "2025-02-05"
+				}
+			]
+		},
+		{
+			"id": "6",
+			"name": "Jamshid Usta",
+			"profession": "Elektrik",
+			"city": "Farg'ona",
+			"experience": 6,
+			"rating": 4.3,
+			"reviewsCount": 45,
+			"priceFrom": 130000,
+			"topRated": false,
+			"avatar": "/avatars/jamshid.jpg",
+			"bio": "Uy va ofis elektr ishlari bo'yicha tajribali elektrik. Simlar tortish, rozetkalar, lyustralar o'rnatish.",
+			"works": [
+				{
+					"id": "w10",
+					"title": "Lyustra o'rnatish",
+					"image": "/works/elektrik4.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r8",
+					"user": "Kamola Rahmonova",
+					"rating": 4,
+					"comment": "Tez va sifatli ishladi",
+					"date": "2025-01-30"
+				}
+			]
+		},
+		{
+			"id": "7",
+			"name": "Farxod Usta",
+			"profession": "Santexnik",
+			"city": "Toshkent",
+			"experience": 15,
+			"rating": 4.7,
+			"reviewsCount": 234,
+			"priceFrom": 220000,
+			"topRated": true,
+			"avatar": "/avatars/farxod.jpg",
+			"bio": "15 yillik tajriba bilan professional santexnik. Isitish tizimlari, suv ta'minoti, kanalizatsiya va hamma turdagi santexnika ishlari.",
+			"works": [
+				{
+					"id": "w11",
+					"title": "Isitish tizimi",
+					"image": "/works/santexnik3.jpg"
+				},
+				{
+					"id": "w12",
+					"title": "Vanna o'rnatish",
+					"image": "/works/santexnik4.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r9",
+					"user": "Nodira Yusupova",
+					"rating": 5,
+					"comment": "Isitish tizimini a'lo darajada o'rnatdi",
+					"date": "2025-02-08"
+				},
+				{
+					"id": "r10",
+					"user": "Alisher Rahmonov",
+					"rating": 5,
+					"comment": "Professional usta, tavsiya qilaman!",
+					"date": "2025-01-18"
+				}
+			]
+		},
+		{
+			"id": "8",
+			"name": "Nodir Usta",
+			"profession": "Usta",
+			"city": "Samarqand",
+			"experience": 9,
+			"rating": 4.4,
+			"reviewsCount": 89,
+			"priceFrom": 160000,
+			"topRated": false,
+			"avatar": "/avatars/nodir.jpg",
+			"bio": "Uy ta'miri bo'yicha universal usta. Gips karton, bo'yoq, plitka, laminat va boshqa ta'mirlash ishlari.",
+			"works": [
+				{
+					"id": "w13",
+					"title": "Plitka yotqizish",
+					"image": "/works/remont3.jpg"
+				},
+				{
+					"id": "w14",
+					"title": "Laminat o'rnatish",
+					"image": "/works/remont4.jpg"
+				}
+			],
+			"reviews": [
+				{
+					"id": "r11",
+					"user": "Sanjar Ergashev",
+					"rating": 4,
+					"comment": "Hammomda plitka yotqizdi, yaxshi ishladi",
+					"date": "2025-02-12"
+				}
+			]
+		}
+	],
+	"professions": ["Elektrik", "Santexnik", "Usta", "Betonchi", "Payvandchi"],
+	"cities": [
+		"Toshkent",
+		"Samarqand",
+		"Buxoro",
+		"Andijon",
+		"Farg'ona",
+		"Namangan",
+		"Qashqadaryo",
+		"Surxondaryo"
+	]
 }
